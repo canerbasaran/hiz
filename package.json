@@ -1,0 +1,23 @@
+{
+  "name": "hiz",
+  "description": "hiz is fast some helper functions for javascript",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/canerbasaran/hiz.git"
+  },
+  "homepage": "https://github.com/canerbasaran/hiz",
+  "main": "index.js",
+  "dependencies": {},
+  "keywords": [
+    "modules",
+    "stdlib",
+    "util"
+  ],
+  "author": {
+    "name": "Caner Başaran",
+    "email": "basaran.caner@gmail.com",
+    "url": "http://basarancaner.github.io"
+  },
+  "license": "MIT"
+}
