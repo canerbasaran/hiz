@@ -8,7 +8,15 @@
   },
   "homepage": "https://github.com/canerbasaran/hiz",
   "main": "index.js",
+  "scripts": {
+    "benchmark": "node bench.js"
+  },
   "dependencies": {},
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "lodash.intersection": "^4.4.0",
+    "intersect": "^1.0.1"
+  },
   "keywords": [
     "modules",
     "stdlib",

@@ -3,6 +3,18 @@
 
 hiz is fast some helper functions for javascript. It means fast in Turkish.
 
+
+## Benchmarks
+
+Node 10.4.0:
+
+```
+hiz.intersection x 19,645 ops/sec ±1.38% (88 runs sampled)
+intersect x 8,312 ops/sec ±0.58% (93 runs sampled)
+lodash.intersection x 8,248 ops/sec ±1.40% (90 runs sampled)
+```
+
+
 ## Usage
 
 ```js
