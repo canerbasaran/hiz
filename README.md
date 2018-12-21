@@ -1,8 +1,27 @@
 
 # hiz
 
-hiz is fast some helper functions for javascript. It means fast in Turkish.
+hiz is some helper functions for javascript. It means fast in Turkish.
 
+
+## Usage
+
+#intersection
+```js
+const hiz = require('hiz');
+
+const firstArray = [2, 9, 1, 0];
+const secondArray = [1, 9, 2, 3];
+
+console.log(hiz.intersection(firstArray, secondArray));
+// => [1, 9, 2]
+```
+
+#MongoDB ObjectId
+```js
+console.log(hiz.objectId());
+// => '5c1d692d9d0e873d3f76d05d'
+```
 
 ## Benchmarks
 
@@ -12,19 +31,6 @@ Node 10.4.0:
 hiz.intersection x 19,645 ops/sec ±1.38% (88 runs sampled)
 intersect x 8,312 ops/sec ±0.58% (93 runs sampled)
 lodash.intersection x 8,248 ops/sec ±1.40% (90 runs sampled)
-```
-
-
-## Usage
-
-```js
-const hiz = require('hiz');
-
-const firstArray = [2, 9, 1, 0];
-const secondArray = [1, 9, 2, 3];
-
-console.log(hiz.intersection(firstArray, secondArray));
-// => [1, 9, 2]
 ```
 
 ## Installation
